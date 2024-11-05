@@ -1,0 +1,45 @@
+.navbar{
+  height: 100px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navbar-logo span{
+  color: white;
+  font-size: 25px;
+}
+  
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+  
+.navbar-menu li {
+  font-size: 20px;
+}
+  
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+  
+.navbar-menu li a:hover {
+  color: #ffd700; /* Change the color on hover */
+}
+  
